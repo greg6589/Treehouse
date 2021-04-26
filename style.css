@@ -482,3 +482,54 @@ header .wrap button {
     margin-left: -20px;
     margin-top: -20px;
 }
+
+/* SECTION NEXT-PROJECT */
+
+.next-project {
+    background-color: white;
+}
+
+.heading.next {
+    background-color: rgb(0, 151, 0);
+    color: white;
+    margin-bottom: 10%;
+}
+
+.heading.next button {
+    background-color: transparent;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    margin: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.heading.next button a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-next {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo-next div {
+    position: relative;
+    flex-basis: 100%;
+    padding: 10%;
+}
+
+.logo-next img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
