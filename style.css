@@ -645,3 +645,56 @@ header .wrap button {
     font-size: 16px;
     padding-bottom: 5%;
 }
+
+/* FOOTER */
+
+.footerBar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: white;
+}
+
+.copyright {
+    padding: 5%;
+    font-size: 18px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.socials a {
+    font-size: 40px;
+    color: #222222;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.fab {
+    transition: 0.3s;
+}
+
+.fa-facebook:hover {
+    color: #4267b2;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.fa-google-plus:hover {
+    color: #ca3b2b;
+}
+
+.fa-pinterest-p:hover {
+    color: #e60023;
+}
