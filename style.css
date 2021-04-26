@@ -44,7 +44,7 @@ body {
 }
 
 .logo span {
-    color: green;
+    color: rgb(0, 151, 0);
     padding-left: 10px;
 }
 
@@ -204,4 +204,117 @@ header .wrap button {
 
 .bgopacity .btn {
     margin: 0 5%;
+}
+
+/* SECTION PORTFOLIO  */
+
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 90%;
+}
+
+.description {
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+.description h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20% 3% 0% 3%;
+}
+
+.description p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0% 5%;
+    color: rgb(53, 53, 53);
+}
+
+.description p:nth-last-of-type(1) {
+    text-align: left;
+    padding: 0% 5% 2% 5%;
+}
+
+.description h2 {
+    font-size: 20px;
+    padding: 15% 5% 0% 5%;
+    text-transform: uppercase;
+}
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    padding: 5%;
+    flex-basis: 100%;
+}
+
+.tech div {
+    padding: 5% 0% 5% 5%;
+    flex-basis: 25%;
+}
+
+.tech div span {
+    font-size: 40px;
+    border: 4px solid black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    line-height: 65px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.tech .spec {
+    flex-basis: 60%;
+    padding: 5%;
+}
+
+.spec h1 {
+    font-size: 20px;
+}
+
+.spec p {
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+}
+
+.tech p:nth-last-child(2) {
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.tech a {
+    display: block;
+    text-transform: uppercase;
+    color: rgb(0, 151, 0);
+    text-decoration: none;
+}
+
+.techImage {
+    flex-basis: 100%;
+    overflow: hidden;
+    height: 20vh;
+}
+
+.techImage img {
+    position: relative;
+    top: 45%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    transform: scale(2.5);
 }
