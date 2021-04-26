@@ -110,3 +110,33 @@ header .wrap button {
     transition: 0.3s;
     cursor: pointer;
 }
+
+/* SECTION FEATURES */
+
+.features h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15% 5% 5% 5%;
+}
+
+.features p {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+    padding: 0 5%;
+}
+
+.feature {
+    text-align: center;
+    padding: 10%;
+}
+
+.feature h2 {
+    font-size: 26px;
+}
+
+.feature span {
+    font-size: 68px;
+    padding-bottom: 10px;
+}
