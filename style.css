@@ -533,3 +533,115 @@ header .wrap button {
     left: 50%;
     transform: translate(-50%, 0);
 }
+
+/* SECTION CONTACT */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    background-color: #222222;
+    color: rgb(255, 254, 250);
+}
+
+.adress {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15%;
+}
+
+.adress h1 {
+    font-size: 22px;
+    flex-basis: 100%;
+    padding-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.adress p {
+    color: rgb(216, 216, 216);
+    flex-basis: 85%;
+    font-size: 16px;
+}
+
+.adress p:nth-of-type(1) {
+    padding-right: 100px;
+}
+
+.adress span {
+    flex-basis: 5%;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.mail {
+    cursor: pointer;
+}
+
+.mail:hover {
+    color: rgb(0, 151, 0);
+}
+
+.activities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15%;
+    flex-basis: 100%;
+}
+
+.activities h1 {
+    font-size: 22px;
+    flex-basis: 100%;
+    padding-bottom: 10%;
+    text-transform: uppercase;
+}
+
+.activities p {
+    flex-basis: 85%;
+    color: rgb(216, 216, 216);
+    font-size: 16px;
+}
+
+.activities span {
+    flex-basis: 6%;
+    font-size: 30px;
+}
+
+.lastTweets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    flex-basis: 100%;
+}
+
+.lastTweets h1 {
+    font-size: 22px;
+    flex-basis: 100%;
+    padding-bottom: 10%;
+    text-transform: uppercase;
+}
+
+.lastTweets span {
+    flex-basis: 10%;
+    font-size: 30px;
+}
+
+.lastTweets div {
+    flex-basis: 85%;
+    color: rgb(216, 216, 216);
+    font-size: 16px;
+    padding-bottom: 5%;
+}
