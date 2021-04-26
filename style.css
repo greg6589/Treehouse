@@ -140,3 +140,68 @@ header .wrap button {
     font-size: 68px;
     padding-bottom: 10px;
 }
+
+/* SECTION ABOUT */
+.about {
+    display: flex;
+}
+
+.about .fa-cog {
+    display: none;
+    color: #535353;
+}
+
+.about .wrapper {
+    background-image: url(img/mountain.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.bgopacity {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.about .wrapper h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    padding: 10% 5%;
+}
+
+.bgopacity h1 span {
+    color: rgb(0, 151, 0);
+}
+
+.wrapper p {
+    font-size: 16px;
+    padding: 5%;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    padding: 5%;
+    flex-basis: 90%;
+}
+
+.list span {
+    font-size: 30px;
+    flex-basis: 2%;
+    padding-right: 10px;
+}
+
+.list p {
+    font-size: 16px;
+    flex-basis: 80%;
+    padding: 5% 0;
+}
+
+.bgopacity .btn {
+    margin: 0 5%;
+}
