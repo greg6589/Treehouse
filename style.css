@@ -23,7 +23,29 @@ body {
     top: -15vh;
     background-color: white;
     transition: 0.3s;
+}
 
+.menu ul {
+    padding: 1% 0 5% 10%;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    display: block;
+    padding: 2px;
+    color: rgb(53, 53, 53);
+    line-height: 100%;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul li a:hover {
+    color: rgb(0, 151, 0);
 }
 
 .navbar {
