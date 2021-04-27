@@ -453,7 +453,7 @@ header .wrap button {
 
 .heading p {
     font-size: 18px;
-    padding-bottom: 10%;
+    padding: 0 2% 10% 2%;
     color: rgb(53, 53, 53);
 }
 
@@ -595,6 +595,12 @@ header .wrap button {
     color: rgb(216, 216, 216);
     flex-basis: 85%;
     font-size: 16px;
+}
+
+.adress p a {
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+
 }
 
 .adress p:nth-of-type(1) {
