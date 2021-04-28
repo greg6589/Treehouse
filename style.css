@@ -293,6 +293,49 @@ header .wrap button {
 
 .bgopacity .btn {
     margin: 0 5%;
+
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+    .bgopacity {
+        height: 85vh;
+    }
+
+    .about .wrapper h1 {
+        font-size: 44px;
+        padding: 15% 5% 5% 5%;
+    }
+
+    .bgopacity h1 span {
+        color: rgb(0, 151, 0);
+    }
+
+    .wrapper p {
+        font-size: 24px;
+        padding: 2% 5%;
+    }
+
+    .list {
+        font-size: 24px;
+    }
+
+    .list span {
+        font-size: 35px;
+        flex-basis: 5%;
+        padding-right: 10px;
+    }
+
+    .list p {
+        font-size: 24px;
+        flex-basis: 90%;
+        padding: 3% 0;
+    }
+
+    .bgopacity .btn {
+        margin: 30px auto;
+        padding: 20px 30px;
+        font-size: 22px;
+    }
 }
 
 /* SECTION PORTFOLIO  */
