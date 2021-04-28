@@ -159,6 +159,22 @@ header .wrap button {
     cursor: pointer;
 }
 
+@media (min-width: 768px) and (orientation: portrait) {
+    header .wrap h1 {
+        padding: 40% 5% 10% 5%;
+        font-size: 54px;
+    }
+
+    header .wrap p {
+        font-size: 28px;
+    }
+
+    .btn {
+        padding: 20px 30px;
+        font-size: 22px;
+    }
+}
+
 /* SECTION FEATURES */
 
 .features h1 {
