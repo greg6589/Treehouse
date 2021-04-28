@@ -451,6 +451,61 @@ header .wrap button {
     transform: scale(2.5);
 }
 
+@media (min-width: 768px) and (orientation: portrait) {
+    .description h1 {
+        font-size: 40px;
+        padding: 8% 3% 0% 3%;
+    }
+
+    .description p {
+        font-size: 24px;
+        padding: 2% 5%;
+    }
+
+    .description p:nth-last-of-type(1) {
+        padding: 1% 5% 2% 5%;
+    }
+
+    .description h2 {
+        font-size: 24px;
+        padding: 5% 5% 0% 5%;
+    }
+
+    .tech {
+        font-size: 24px;
+    }
+
+    .tech div {
+        padding: 3% 0% 3% 3%;
+        flex-basis: 10%;
+    }
+
+    .tech div span {
+        font-size: 40px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .tech .spec {
+        flex-basis: 80%;
+        padding: 3% 40% 3% 3%;
+    }
+
+    .spec h1 {
+        font-size: 24px;
+    }
+
+    .spec p {
+        font-size: 18px;
+    }
+
+    .tech p:nth-last-child(2) {
+        font-size: 22px;
+        width: 90%;
+    }
+}
+
 /* SECTION ATTRIBUTE */
 
 .attribute {
