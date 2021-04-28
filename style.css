@@ -205,6 +205,31 @@ header .wrap button {
     padding-bottom: 10px;
 }
 
+@media (min-width: 768px) and (orientation: portrait) {
+    .features h1 {
+        font-size: 40px;
+        padding: 10% 5% 2% 5%;
+    }
+
+    .features p {
+        font-size: 22px;
+        padding: 2% 5%;
+    }
+
+    .feature {
+        padding: 5%;
+    }
+
+    .feature h2 {
+        font-size: 30px;
+    }
+
+    .feature span {
+        font-size: 85px;
+        padding-bottom: 15px;
+    }
+}
+
 /* SECTION ABOUT */
 .about {
     display: flex;
