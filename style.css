@@ -1064,3 +1064,18 @@ header .wrap button {
 .fa-pinterest-p:hover {
     color: #e60023;
 }
+
+@media (min-width: 768px) and (orientation: portrait) {
+    .footerBar {
+        height: 10vh;
+    }
+
+    .copyright {
+        padding: 2%;
+        font-size: 22px;
+    }
+
+    .socials a {
+        padding: 1% 5%;
+    }
+}
