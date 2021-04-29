@@ -949,6 +949,69 @@ header .wrap button {
     padding-bottom: 5%;
 }
 
+@media (min-width: 768px) and (orientation: portrait) {
+
+    .adress {
+        padding-top: 1%;
+    }
+
+    .adress h1 {
+        font-size: 30px;
+        padding-bottom: 2%;
+    }
+
+    .adress p {
+        flex-basis: 92%;
+        font-size: 22px;
+    }
+
+
+    .adress p:nth-of-type(1) {
+        padding-right: 100px;
+    }
+
+    .adress span {
+        flex-basis: 7%;
+    }
+
+    .activities {
+        padding-top: 5%;
+    }
+
+    .activities h1 {
+        font-size: 30px;
+        padding-bottom: 2%;
+    }
+
+    .activities p {
+        flex-basis: 90%;
+        font-size: 22px;
+    }
+
+    .lastTweets {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        flex-basis: 100%;
+    }
+
+    .lastTweets h1 {
+        font-size: 30px;
+        padding-bottom: 2%;
+    }
+
+    .lastTweets span {
+        flex-basis: 8%;
+        font-size: 30px;
+    }
+
+    .lastTweets div {
+        flex-basis: 92%;
+        font-size: 16px;
+        padding-bottom: 2%;
+    }
+
+}
+
 /* FOOTER */
 
 .footerBar {
