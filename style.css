@@ -753,23 +753,29 @@ header .wrap button {
     background-color: white;
 }
 
-.heading.next {
+.next {
+    text-align: center;
     background-color: rgb(0, 151, 0);
     color: white;
     margin-bottom: 10%;
 }
 
-.heading.next button {
+.next h1 {
+    font-size: 30px;
+    padding: 5%;
+}
+
+.next button {
     background-color: transparent;
     font-size: 18px;
     text-transform: uppercase;
     border: 2px solid white;
-    margin: 10%;
+    margin: 5%;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.heading.next button a {
+.next button a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
@@ -796,6 +802,33 @@ header .wrap button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+
+    .next {
+        margin-bottom: 1%;
+    }
+
+    .next h1 {
+        font-size: 40px;
+        padding: 3% 5%;
+    }
+
+
+    .next button {
+        font-size: 22px;
+        margin: 2%;
+    }
+
+    .next button a {
+        padding: 20px 30px;
+    }
+
+    .logo-next div {
+        flex-basis: 50%;
+        padding: 10%;
+    }
 }
 
 /* SECTION CONTACT */
