@@ -589,6 +589,41 @@ header .wrap button {
     right: 40px;
 }
 
+@media (min-width: 768px) and (orientation: portrait) {
+    .attr-des h1 {
+        font-size: 40px;
+        padding: 10% 5% 2% 5%;
+    }
+
+    .attr-des p {
+        font-size: 22px;
+        padding: 0% 5% 1% 5%;
+    }
+
+    .attr {
+        padding: 2%;
+    }
+
+    .attr h2 {
+        padding-top: 2%;
+    }
+
+    .attr p {
+        font-size: 18px;
+        padding: 1% 20%;
+    }
+
+    .attr h2::before {
+        height: 4px;
+        left: 250px;
+    }
+
+    .attr h2::after {
+        height: 4px;
+        right: 250px;
+    }
+}
+
 /* SECTION CLIENTS */
 
 .clients {
