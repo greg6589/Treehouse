@@ -619,6 +619,33 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1024px) and (orientation: portrait) {
+    .description p {
+        font-size: 28px;
+    }
+
+    .description h2 {
+        font-size: 30px;
+    }
+
+    .tech {
+        font-size: 28px;
+    }
+
+    .spec h1 {
+        font-size: 30px;
+    }
+
+    .spec p {
+        font-size: 22px;
+    }
+
+    .tech p:nth-last-child(2) {
+        font-size: 28px;
+    }
+
+}
+
 /* SECTION ATTRIBUTE */
 
 .attribute {
