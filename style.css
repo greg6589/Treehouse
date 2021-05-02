@@ -284,6 +284,42 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1024px) and (orientation: portrait) {
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-basis: 100%;
+    }
+
+    .features h1 {
+        flex-basis: 100%;
+        font-size: 40px;
+        padding: 10% 5% 1% 5%;
+    }
+
+    .features p {
+        flex-basis: 100%;
+        font-size: 28px;
+        padding: 1% 5% 5% 5%;
+    }
+
+    .feature {
+        flex-basis: 33%;
+        padding: 5% 3%;
+    }
+
+    .feature h2 {
+        font-size: 30px;
+    }
+
+    .feature span {
+        font-size: 70px;
+        padding-bottom: 10px;
+    }
+}
+
 /* SECTION ABOUT */
 .about {
     display: flex;
