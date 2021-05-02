@@ -764,6 +764,47 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1024px) and (orientation: portrait) {
+    .attribute {
+        justify-content: space-between;
+        height: 40vh;
+    }
+
+    .attr-des h1 {
+        font-size: 40px;
+        padding: 2% 5%;
+    }
+
+    .attr-des p {
+        font-size: 28px;
+        padding: 1%;
+    }
+
+    .attr {
+        flex-basis: 33%;
+        align-items: flex-start;
+        padding: 1%;
+    }
+
+    .attr h2 {
+        font-size: 30px;
+        padding-top: 2%;
+    }
+
+    .attr p {
+        font-size: 26px;
+        padding: 0;
+    }
+
+    .attr h2::before {
+        left: 220px;
+    }
+
+    .attr h2::after {
+        right: 220px;
+    }
+}
+
 /* SECTION CLIENTS */
 
 .clients {
