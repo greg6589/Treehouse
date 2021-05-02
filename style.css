@@ -428,6 +428,29 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1024px) and (orientation: portrait) {
+    .bgopacity {
+        height: 80vh;
+    }
+
+    .about .wrapper h1 {
+        font-size: 54px;
+    }
+
+    .wrapper p {
+        font-size: 28px;
+    }
+
+    .list {
+        font-size: 28px;
+    }
+
+    .list p {
+        font-size: 24px;
+        flex-basis: 95%;
+    }
+}
+
 /* SECTION PORTFOLIO  */
 
 
