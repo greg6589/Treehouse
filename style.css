@@ -1355,19 +1355,19 @@ header .wrap button {
     transition: 0.3s;
 }
 
-.fa-facebook:hover {
+.fa-facebook {
     color: #4267b2;
 }
 
-.fa-twitter:hover {
+.fa-twitter {
     color: #1da1f2;
 }
 
-.fa-google-plus:hover {
+.fa-google-plus {
     color: #ca3b2b;
 }
 
-.fa-pinterest-p:hover {
+.fa-pinterest-p {
     color: #e60023;
 }
 
@@ -1384,4 +1384,29 @@ header .wrap button {
     .socials a {
         padding: 1% 5%;
     }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+    .footerBar {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 10vh;
+    }
+
+    .copyright {
+        flex-basis: 50%;
+        padding: 0 5%;
+        font-size: 28px;
+    }
+
+    .socials {
+        flex-basis: 50%;
+        justify-content: space-around;
+    }
+
+    .socials a {
+        font-size: 60px;
+        padding: 0 5%;
+    }
+
 }
