@@ -1081,7 +1081,7 @@ header .wrap button {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 5%;
     background-color: #222222;
     color: rgb(255, 254, 250);
@@ -1252,6 +1252,69 @@ header .wrap button {
         font-size: 16px;
         padding-bottom: 2%;
     }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+    .contact {
+        padding: 5% 2%;
+    }
+
+    .adress {
+        flex-basis: 54%;
+        align-items: flex-start;
+    }
+
+    .adress h1 {
+        font-size: 40px;
+    }
+
+    .adress p {
+        flex-basis: 88%;
+        font-size: 28px;
+    }
+
+    .adress p:nth-of-type(1) {
+        padding-right: 0px;
+    }
+
+
+    .activities {
+        flex-basis: 46%;
+        align-items: flex-start;
+        padding-top: 1%;
+    }
+
+    .activities h1 {
+        font-size: 40px;
+    }
+
+    .activities span {
+        flex-basis: 12%;
+    }
+
+    .activities p {
+        flex-basis: 86%;
+        font-size: 28px;
+    }
+
+    .lastTweets {
+        flex-basis: 100%;
+    }
+
+    .lastTweets h1 {
+        font-size: 40px;
+        padding-bottom: 2%;
+    }
+
+    .lastTweets span {
+        flex-basis: 5%;
+    }
+
+    .lastTweets div {
+        flex-basis: 95%;
+        font-size: 28px;
+    }
+
 
 }
 
