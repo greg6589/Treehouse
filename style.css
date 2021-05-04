@@ -927,6 +927,32 @@ header .wrap button {
     }
 }
 
+@media (min-width: 640px) and (orientation: landscape) {
+    .attr-des h1 {
+        padding: 5% 5% 2% 5%;
+    }
+
+    .attr-des p {
+        padding: 0% 5% 1% 5%;
+    }
+
+    .attr {
+        padding: 2% 5%;
+    }
+
+    .attr h2 {
+        padding-top: 2%;
+    }
+
+    .attr h2::before {
+        left: 160px;
+    }
+
+    .attr h2::after {
+        right: 160px;
+    }
+}
+
 /* SECTION CLIENTS */
 
 .clients {
