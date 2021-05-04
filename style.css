@@ -1516,7 +1516,52 @@ header .wrap button {
         flex-basis: 95%;
         font-size: 28px;
     }
+}
 
+@media (min-width: 640px) and (orientation: landscape) {
+    .adress {
+        padding-top: 2%;
+    }
+
+    .adress h1 {
+        padding-bottom: 1%;
+    }
+
+    .adress p {
+        flex-basis: 90%;
+    }
+
+
+    .activities {
+        padding-top: 5%;
+    }
+
+    .activities h1 {
+        padding-bottom: 1%;
+    }
+
+    .activities p {
+        flex-basis: 90%;
+    }
+
+
+    .lastTweets {
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+
+    .lastTweets h1 {
+        padding-bottom: 1%;
+    }
+
+    .lastTweets span {
+        flex-basis: 8%;
+    }
+
+    .lastTweets div {
+        flex-basis: 92%;
+        padding-bottom: 2%;
+    }
 
 }
 
