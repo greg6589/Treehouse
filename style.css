@@ -1124,6 +1124,40 @@ header .wrap button {
     }
 }
 
+@media (min-width: 640px) and (orientation: landscape) {
+    .heading h1 {
+        padding: 5% 5% 0 5%;
+    }
+
+    .heading p {
+        padding: 0 2% 2% 2%;
+    }
+
+    .customerFoto {
+        padding: 1% 5%;
+    }
+
+    .customerFoto img {
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 25%;
+    }
+
+    .customer p:nth-of-type(1) {
+        padding: 2% 5%;
+    }
+
+    .customer p:nth-of-type(2) {
+        padding: 2% 5%;
+    }
+
+    .customer {
+        padding: 0;
+        margin: 2% 5%;
+    }
+
+}
+
 /* SECTION NEXT-PROJECT */
 
 .next-project {
