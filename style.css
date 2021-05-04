@@ -23,6 +23,7 @@ body {
     top: -15vh;
     background-color: white;
     transition: 0.3s;
+    z-index: 1;
 }
 
 .menu ul {
@@ -149,6 +150,10 @@ ul li a:hover {
 @media (min-width: 640px) and (orientation: landscape) {
     .menu {
         top: -30vh;
+    }
+
+    .menu ul {
+        padding: 1% 0 1% 10%;
     }
 
     .navbar {
