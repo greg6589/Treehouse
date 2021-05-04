@@ -257,10 +257,6 @@ header .wrap button {
         margin: 3% auto;
     }
 
-    /* .btn {
-        padding: 20px 30px;
-    } */
-
 }
 
 /* SECTION FEATURES */
@@ -351,6 +347,21 @@ header .wrap button {
     .feature span {
         font-size: 70px;
         padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 640px) and (orientation: landscape) {
+    .features h1 {
+        padding: 5% 5% 1% 5%;
+    }
+
+
+    .feature {
+        padding: 3%;
+    }
+
+    .feature span {
+        padding-bottom: 5px;
     }
 }
 
