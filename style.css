@@ -264,6 +264,17 @@ header .wrap button {
 
 }
 
+@media (min-width: 812px) and (orientation: landscape) {
+    header .wrap h1 {
+        padding: 15% 5% 0% 5%;
+    }
+
+
+    header .wrap button {
+        margin: 5% auto;
+    }
+}
+
 /* SECTION FEATURES */
 
 .features h1 {
@@ -529,7 +540,22 @@ header .wrap button {
         margin: 2% auto;
 
     }
+}
 
+@media (min-width: 812px) and (orientation: landscape) {
+    .list p {
+
+        padding: 1% 0;
+    }
+
+    .wrapper p {
+        padding: 0 5% 1% 5%;
+    }
+
+    .bgopacity .btn {
+        margin: 1% auto;
+
+    }
 }
 
 /* SECTION PORTFOLIO  */
@@ -955,6 +981,26 @@ header .wrap button {
 
     .attr h2::after {
         right: 160px;
+    }
+}
+
+@media (min-width: 731px) and (orientation: landscape) {
+    .attr h2::before {
+        left: 200px;
+    }
+
+    .attr h2::after {
+        right: 200px;
+    }
+}
+
+@media (min-width: 812px) and (orientation: landscape) {
+    .attr h2::before {
+        left: 250px;
+    }
+
+    .attr h2::after {
+        right: 250px;
     }
 }
 
@@ -1533,7 +1579,7 @@ header .wrap button {
     }
 
     .adress p {
-        flex-basis: 90%;
+        flex-basis: 93%;
     }
 
 
@@ -1567,7 +1613,6 @@ header .wrap button {
         flex-basis: 92%;
         padding-bottom: 2%;
     }
-
 }
 
 /* FOOTER */
