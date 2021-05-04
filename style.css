@@ -496,6 +496,37 @@ header .wrap button {
     }
 }
 
+@media (min-width: 640px) and (orientation: landscape) {
+    .about .wrapper h1 {
+        padding: 5% 5% 2% 5%;
+    }
+
+    .wrapper p {
+        padding: 0 5%;
+    }
+
+    .list {
+        padding: 0 5%;
+        flex-basis: 90%;
+    }
+
+    .list span {
+        flex-basis: 2%;
+        padding-right: 10px;
+    }
+
+    .list p {
+        flex-basis: 90%;
+        padding: 2% 0;
+    }
+
+    .bgopacity .btn {
+        margin: 2% auto;
+
+    }
+
+}
+
 /* SECTION PORTFOLIO  */
 
 
