@@ -1655,5 +1655,14 @@ header .wrap button {
         font-size: 60px;
         padding: 0 5%;
     }
+}
 
+@media (min-width: 640px) and (orientation: landscape) {
+    .footerBar {
+        height: 25vh;
+    }
+
+    .copyright {
+        padding: 1%;
+    }
 }
