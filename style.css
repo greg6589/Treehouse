@@ -244,6 +244,25 @@ header .wrap button {
     }
 }
 
+@media (min-width: 640px) and (orientation: landscape) {
+    header .wrap h1 {
+        padding: 12% 5% 0% 5%;
+    }
+
+    header .wrap p {
+        padding: 2%;
+    }
+
+    header .wrap button {
+        margin: 3% auto;
+    }
+
+    /* .btn {
+        padding: 20px 30px;
+    } */
+
+}
+
 /* SECTION FEATURES */
 
 .features h1 {
