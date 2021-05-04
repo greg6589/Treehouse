@@ -146,6 +146,21 @@ ul li a:hover {
     }
 }
 
+@media (min-width: 640px) and (orientation: landscape) {
+    .menu {
+        top: -30vh;
+    }
+
+    .navbar {
+        height: 10vh;
+    }
+
+    .active {
+        top: 10vh;
+    }
+
+}
+
 /* HEADER */
 
 header {
