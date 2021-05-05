@@ -490,7 +490,7 @@ header .wrap button {
 
 .about .fa-cog {
     display: none;
-    color: #535353;
+    color: #3b3b3b;
 }
 
 .about .wrapper {
@@ -527,7 +527,6 @@ header .wrap button {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    font-size: 16px;
     padding: 5%;
     flex-basis: 90%;
 }
@@ -568,10 +567,6 @@ header .wrap button {
         padding: 2% 5%;
     }
 
-    .list {
-        font-size: 24px;
-    }
-
     .list span {
         font-size: 35px;
         flex-basis: 5%;
@@ -601,10 +596,6 @@ header .wrap button {
     }
 
     .wrapper p {
-        font-size: 28px;
-    }
-
-    .list {
         font-size: 28px;
     }
 
@@ -646,7 +637,6 @@ header .wrap button {
 
 @media (min-width: 812px) and (orientation: landscape) {
     .list p {
-
         padding: 1% 0;
     }
 
@@ -746,15 +736,14 @@ header .wrap button {
     color: rgb(53, 53, 53);
 }
 
-.description p:nth-last-of-type(1) {
-    text-align: left;
-    padding: 0% 5% 2% 5%;
-}
-
 .description h2 {
     font-size: 20px;
     padding: 15% 5% 0% 5%;
     text-transform: uppercase;
+}
+
+.description p:nth-last-of-type(1) {
+    text-align: left;
 }
 
 .tech {
@@ -764,16 +753,16 @@ header .wrap button {
     justify-content: flex-start;
     align-items: center;
     font-size: 16px;
-    padding: 5%;
+    padding: 5% 0 0 5%;
     flex-basis: 100%;
 }
 
-.tech div {
+.tech .techIcon {
     padding: 5% 0% 5% 5%;
     flex-basis: 25%;
 }
 
-.tech div span {
+.techIcon span {
     font-size: 40px;
     border: 4px solid black;
     border-radius: 50%;
@@ -785,48 +774,51 @@ header .wrap button {
 }
 
 .tech .spec {
-    flex-basis: 60%;
+    flex-basis: 70%;
     padding: 5%;
 }
+
 
 .spec h1 {
     font-size: 20px;
 }
 
-.spec p {
+.tech .info {
+    flex-basis: 100%;
     font-size: 16px;
-    color: rgb(53, 53, 53);
-}
-
-.tech p:nth-last-child(2) {
-    font-size: 18px;
-    color: rgb(53, 53, 53);
-    padding-top: 5%;
-    padding-bottom: 5%;
-    width: 100%;
+    padding: 5% 0;
 }
 
 .tech a {
+    flex-basis: 100%;
     display: block;
     text-transform: uppercase;
     color: rgb(0, 151, 0);
     text-decoration: none;
+    padding-top: 2%;
 }
 
-.techImage {
+
+.tech .imageWrapper {
+    position: relative;
+    bottom: 0;
+    right: 0;
     flex-basis: 100%;
     overflow: hidden;
     height: 20vh;
 }
 
-.techImage img {
+.imageWrapper img {
     position: relative;
-    top: 45%;
-    left: 50%;
-    width: auto;
-    height: 100%;
-    transform: scale(2.5);
+    top: 0%;
+    left: 30%;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+
 }
+
+
 
 @media (min-width: 768px) and (orientation: portrait) {
     .description h1 {
@@ -839,20 +831,17 @@ header .wrap button {
         padding: 2% 5%;
     }
 
-    .description p:nth-last-of-type(1) {
-        padding: 1% 5% 2% 5%;
-    }
-
     .description h2 {
         font-size: 24px;
         padding: 5% 5% 0% 5%;
     }
 
     .tech {
+        position: relative;
         font-size: 24px;
     }
 
-    .tech div {
+    .tech .techIcon {
         padding: 3% 0% 3% 3%;
         flex-basis: 10%;
     }
@@ -877,10 +866,27 @@ header .wrap button {
         font-size: 18px;
     }
 
-    .tech p:nth-last-child(2) {
-        font-size: 22px;
-        width: 90%;
+    .tech a {
+        padding-bottom: 2%;
     }
+
+    .tech .info {
+        flex-basis: 70%;
+        font-size: 18px;
+        padding: 5% 0;
+    }
+
+    .tech .imageWrapper {
+        position: absolute;
+        height: 70%;
+        z-index: -1;
+    }
+
+    .imageWrapper img {
+        position: relative;
+        left: 45%;
+    }
+
 }
 
 @media (min-width: 1024px) and (orientation: portrait) {
@@ -892,10 +898,6 @@ header .wrap button {
         font-size: 30px;
     }
 
-    .tech {
-        font-size: 28px;
-    }
-
     .spec h1 {
         font-size: 30px;
     }
@@ -904,8 +906,13 @@ header .wrap button {
         font-size: 22px;
     }
 
-    .tech p:nth-last-child(2) {
-        font-size: 28px;
+    .tech .info {
+        padding: 3% 0;
+        font-size: 22px;
+    }
+
+    .tech a {
+        padding-top: 0;
     }
 
 }
@@ -928,11 +935,11 @@ header .wrap button {
     }
 
     .tech {
-        padding: 0 5%;
+        padding: 0 0 0 5%;
     }
 
-    .tech div {
-        padding: 0;
+    .tech .techIcon {
+        padding: 1% 0;
         flex-basis: 12%;
     }
 
@@ -941,18 +948,82 @@ header .wrap button {
         padding: 3%;
     }
 
-
-    .tech p:nth-last-child(2) {
-        padding-top: 3%;
-        padding-bottom: 3%;
+    .tech .info {
+        padding: 1% 0;
     }
 
-    .techImage {
-        height: 20vh;
+    .tech a {
+        padding-top: 1%;
     }
 
-    .techImage img {
-        left: 70%;
+    .tech .imageWrapper {
+        height: 50vh;
+    }
+
+    .imageWrapper img {
+        top: -20%;
+        left: 30%;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    .description h1 {
+        font-size: 40px;
+        padding: 5% 3% 0% 3%;
+    }
+
+    .description p {
+        font-size: 22px;
+    }
+
+    .description h2 {
+        font-size: 30px;
+        padding: 7% 5% 1% 5%;
+    }
+
+    .tech {
+        position: relative;
+        padding: 0 0 0 5%;
+    }
+
+    .tech .techIcon {
+        padding: 0;
+        flex-basis: 5%;
+    }
+
+    .tech .spec {
+        flex-basis: 90%;
+        padding: 2% 50% 2% 2%;
+    }
+
+    .spec h1 {
+        font-size: 28px;
+    }
+
+    .spec p {
+        font-size: 22px;
+    }
+
+    .tech .info {
+        padding: 3% 30% 1% 0;
+        font-size: 22px;
+    }
+
+    .tech a {
+        font-size: 22px;
+        padding-top: 1%;
+        padding-bottom: 5%;
+    }
+
+    .tech .imageWrapper {
+        position: absolute;
+        height: 95%;
+        z-index: -1;
+    }
+
+    .imageWrapper img {
+        top: 2%;
+        left: 30%;
     }
 }
 
