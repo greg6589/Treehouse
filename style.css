@@ -166,6 +166,46 @@ ul li a:hover {
 
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+    .menu {
+        left: 40%;
+        right: 0;
+        top: 0;
+        z-index: 3;
+    }
+
+    .menu ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        height: 5vh;
+    }
+
+    .navbar {
+        height: 5vh;
+    }
+
+    ul li a {
+        padding: 10px 20px;
+        color: black;
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+
+    .logo span {
+        padding-left: 20px;
+    }
+
+    .logo a {
+        font-size: 22px;
+    }
+
+    .burger {
+        display: none;
+    }
+}
+
 /* HEADER */
 
 header {
@@ -275,6 +315,32 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+    header {
+        height: 100vh;
+    }
+
+    .wrap {
+        height: 100vh;
+    }
+
+    header .wrap h1 {
+        padding: 30% 5% 1% 5%;
+        font-size: 46px;
+    }
+
+    header .wrap p {
+        padding: 1%;
+        font-size: 18px;
+    }
+
+    header .wrap button {
+        margin: 20% auto;
+        font-size: 22px;
+    }
+}
+
+
 /* SECTION FEATURES */
 
 .features h1 {
@@ -378,6 +444,42 @@ header .wrap button {
 
     .feature span {
         padding-bottom: 5px;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-basis: 100%;
+    }
+
+    .features h1 {
+        flex-basis: 100%;
+        font-size: 40px;
+        padding: 5% 5% 1% 5%;
+    }
+
+    .features p {
+        flex-basis: 100%;
+        font-size: 24px;
+        padding: 1% 5% 5% 5%;
+    }
+
+    .feature {
+        flex-basis: 33%;
+        padding: 2% 3%;
+    }
+
+    .feature h2 {
+        font-size: 30px;
+    }
+
+    .feature span {
+        font-size: 70px;
+        padding-bottom: 10px;
     }
 }
 
@@ -558,6 +660,61 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+    .icon {
+        position: relative;
+        flex-basis: 40%;
+        background-color: rgb(133, 133, 133);
+        z-index: -1;
+    }
+
+    .about .fa-cog {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(50%, -50%);
+        font-size: 500px;
+    }
+
+    .bgopacity {
+        height: 100vh;
+        flex-basis: 60%;
+    }
+
+    .about .wrapper h1 {
+        padding: 10% 5%;
+        font-size: 40px;
+    }
+
+    .wrapper p {
+        font-size: 26px;
+        padding: 5%;
+    }
+
+    .list {
+        font-size: 26px;
+    }
+
+    .list span {
+        flex-basis: 5%;
+        padding: 0;
+    }
+
+    .list p {
+        font-size: 24px;
+        flex-basis: 95%;
+        padding: 2%;
+    }
+
+    .bgopacity .btn {
+        margin: 10% auto;
+        padding: 10px 20px;
+        font-size: 22px;
+    }
+
+}
+
 /* SECTION PORTFOLIO  */
 
 
@@ -567,7 +724,7 @@ header .wrap button {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    flex-basis: 90%;
+    flex-basis: 100%;
 }
 
 .description {
