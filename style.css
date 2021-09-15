@@ -1233,12 +1233,20 @@ header .wrap button {
 }
 
 @media (min-width: 1024px) and (orientation: landscape) {
+    .attribute {
+        align-items: start;
+    }
+
+    .attr {
+        flex-basis: 33%;
+    }
+
     .attr h2::before {
-        left: 340px;
+        left: 0;
     }
 
     .attr h2::after {
-        right: 340px;
+        right: 0;
     }
 }
 
