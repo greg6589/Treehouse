@@ -1455,6 +1455,65 @@ header .wrap button {
 
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+    .clients {
+        margin: 1% 10%;
+    }
+
+    .heading h1 {
+        padding: 2%;
+    }
+
+    .heading p {
+        padding: 0 5% 1% 5%;
+    }
+
+    .customerFoto {
+        flex-basis: 20%;
+        padding: 0;
+    }
+
+    .customerFoto img {
+        left: 0;
+        transform: translate(0, 0);
+        width: 100%;
+    }
+
+    .customer p:nth-of-type(1) {
+        padding: 1% 5%;
+    }
+
+    .customer p:nth-of-type(2) {
+        padding: 1% 5%;
+    }
+
+    .customer {
+        flex-basis: 70%;
+        padding: 0;
+        margin: 5%;
+    }
+
+    .customer:after {
+        top: 50%;
+        left: -7px;
+        transform: rotate(-90deg)
+    }
+
+    /* select the last :after pseudo element of .clients */
+    .clients div:nth-last-of-type(1):after {
+        top: 50%;
+        left: 100%;
+        transform: rotate(90deg);
+    }
+
+
+    .customerFoto:nth-of-type(4) {
+        order: 3;
+        transform: translate(0, 0);
+    }
+
+}
+
 /* SECTION NEXT-PROJECT */
 
 .next-project {
