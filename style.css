@@ -1232,6 +1232,16 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+    .attr h2::before {
+        left: 340px;
+    }
+
+    .attr h2::after {
+        right: 340px;
+    }
+}
+
 /* SECTION CLIENTS */
 
 .clients {
