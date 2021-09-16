@@ -1930,6 +1930,34 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+    .adress {
+        flex-basis: 50%;
+        padding-top: 0;
+    }
+
+    .adress p {
+        flex-basis: 90%;
+    }
+
+    .activities {
+        flex-basis: 50%;
+        padding-top: 0%;
+    }
+
+    .lastTweets {
+        flex-basis: 90%;
+    }
+
+    .lastTweets span {
+        flex-basis: 5%;
+    }
+
+    .lastTweets div {
+        flex-basis: 95%;
+    }
+}
+
 /* FOOTER */
 
 .footerBar {
