@@ -1632,6 +1632,16 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1024px) and (orientation: landscape) {
+    .next h1 {
+        padding: 5% 5% 2% 5%;
+    }
+
+    .logo-next div {
+        flex-basis: 25%;
+    }
+}
+
 /* SECTION CONTACT */
 
 .contact {
