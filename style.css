@@ -2059,3 +2059,10 @@ header .wrap button {
         padding: 1%;
     }
 }
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    .footerBar {
+        height: 15vh;
+    }
+
+}
