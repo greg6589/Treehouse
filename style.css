@@ -340,6 +340,17 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1440px) and (orientation: landscape) {
+
+    header .wrap h1 {
+        padding: 20% 5% 1% 5%;
+    }
+
+    header .wrap button {
+        margin: 10% auto;
+
+    }
+}
 
 /* SECTION FEATURES */
 
@@ -705,6 +716,29 @@ header .wrap button {
 
 }
 
+@media (min-width: 1440px) and (orientation: landscape) {
+    .icon {
+        flex-basis: 30%;
+
+    }
+
+    .bgopacity {
+        flex-basis: 70%;
+    }
+
+    .about .wrapper h1 {
+        padding: 10% 5%;
+    }
+
+    .wrapper p {
+        padding: 2% 5%;
+    }
+
+    .bgopacity .btn {
+        margin: 5% auto;
+    }
+}
+
 /* SECTION PORTFOLIO  */
 
 
@@ -1027,6 +1061,13 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1440px) and (orientation: landscape) {
+    .tech .imageWrapper {
+        height: 100%;
+
+    }
+}
+
 /* SECTION ATTRIBUTE */
 
 .attribute {
@@ -1247,6 +1288,16 @@ header .wrap button {
 
     .attr h2::after {
         right: 0;
+    }
+}
+
+@media (min-width: 1440px) and (orientation: landscape) {
+    .attr h2::before {
+        left: 45px;
+    }
+
+    .attr h2::after {
+        right: 45px;
     }
 }
 
@@ -2064,5 +2115,4 @@ header .wrap button {
     .footerBar {
         height: 15vh;
     }
-
 }
