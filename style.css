@@ -730,8 +730,6 @@ header .wrap button {
         padding: 10% 5%;
     }
 
-
-
     .wrapper p {
         padding: 2% 5%;
     }
@@ -1077,6 +1075,21 @@ header .wrap button {
     .tech .imageWrapper {
         height: 100%;
 
+    }
+}
+
+@media (min-width: 1600px) and (orientation: landscape) {
+
+    .tech .spec {
+        flex-basis: 95%;
+    }
+
+    .tech .imageWrapper {
+        height: 100%;
+    }
+
+    .imageWrapper img {
+        top: -7%;
     }
 }
 
@@ -2021,6 +2034,32 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1600px) and (orientation: landscape) {
+    .adress {
+        flex-basis: 30%;
+    }
+
+    .adress p {
+        flex-basis: 90%;
+    }
+
+
+    .activities {
+        flex-basis: 30%;
+    }
+
+    .lastTweets {
+        flex-basis: 30%;
+        padding-top: 0;
+    }
+
+
+    .lastTweets div {
+        flex-basis: 90%;
+    }
+
+}
+
 /* FOOTER */
 
 .footerBar {
@@ -2126,5 +2165,27 @@ header .wrap button {
 @media (min-width: 1024px) and (orientation: landscape) {
     .footerBar {
         height: 15vh;
+    }
+}
+
+@media (min-width: 1600px) and (orientation: landscape) {
+    .footerBar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copyright {
+        flex-basis: 20%;
+        font-size: 18px;
+    }
+
+    .socials {
+        flex-basis: 50%;
+        justify-content: space-around;
+    }
+
+    .socials a {
+        font-size: 50px;
+
     }
 }
