@@ -730,9 +730,21 @@ header .wrap button {
         padding: 10% 5%;
     }
 
+
+
     .wrapper p {
         padding: 2% 5%;
     }
+
+    .list p {
+        padding: 2%;
+    }
+
+    .list span {
+        flex-basis: 3%;
+        padding: 0;
+    }
+
 
     .bgopacity .btn {
         margin: 5% auto;
