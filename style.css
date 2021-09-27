@@ -206,6 +206,13 @@ ul li a:hover {
     }
 }
 
+@media (min-width: 1900px) and (orientation: landscape) {
+    .menu {
+        left: 60%;
+    }
+
+}
+
 /* HEADER */
 
 header {
@@ -352,6 +359,13 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1900px) and (orientation: landscape) {
+    header .wrap button {
+        margin: 5% auto;
+
+    }
+}
+
 /* SECTION FEATURES */
 
 .features h1 {
@@ -491,6 +505,14 @@ header .wrap button {
     .feature span {
         font-size: 70px;
         padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 1900px) and (orientation: landscape) {
+    .features {
+        width: 80%;
+        margin: 0 auto;
+
     }
 }
 
@@ -743,10 +765,41 @@ header .wrap button {
         padding: 0;
     }
 
-
     .bgopacity .btn {
         margin: 5% auto;
     }
+}
+
+@media (min-width: 1900px) and (orientation: landscape) {
+    .about .wrapper {
+        width: 100%;
+    }
+
+    .icon {
+        flex-basis: 20%;
+    }
+
+    .bgopacity {
+        flex-basis: 80%;
+    }
+
+    .wrapper p {
+        padding: 1% 5%;
+    }
+
+    .list {
+        padding: 2% 5%;
+    }
+
+    .list p {
+        padding: 2% 0%;
+    }
+
+    .list span {
+        flex-basis: 3%;
+        padding: 0;
+    }
+
 }
 
 /* SECTION PORTFOLIO  */
@@ -1093,6 +1146,24 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1900px) and (orientation: landscape) {
+    .description h2 {
+        margin-left: 10%;
+    }
+
+    .description p:nth-of-type(2) {
+        margin-left: 10%;
+    }
+
+    .tech {
+        margin-left: 10%;
+    }
+
+    .imageWrapper img {
+        left: 10%;
+    }
+}
+
 /* SECTION ATTRIBUTE */
 
 .attribute {
@@ -1324,6 +1395,15 @@ header .wrap button {
     .attr h2::after {
         right: 45px;
     }
+}
+
+@media (min-width: 1900px) and (orientation: landscape) {
+    .attribute {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
 }
 
 /* SECTION CLIENTS */
@@ -1718,6 +1798,17 @@ header .wrap button {
     }
 }
 
+@media (min-width: 1900px) and (orientation: landscape) {
+    .next h1 {
+        padding: 2% 5% 1% 5%;
+    }
+
+    .next button {
+        margin: 1%;
+    }
+}
+
+
 /* SECTION CONTACT */
 
 .contact {
@@ -2060,6 +2151,12 @@ header .wrap button {
 
 }
 
+@media (min-width: 1900px) and (orientation: landscape) {
+    .contact {
+        padding: 2% 10%;
+    }
+}
+
 /* FOOTER */
 
 .footerBar {
@@ -2187,5 +2284,15 @@ header .wrap button {
     .socials a {
         font-size: 50px;
 
+    }
+}
+
+@media (min-width: 1900px) and (orientation: landscape) {
+    .footerBar {
+        height: 7vh;
+    }
+
+    .socials {
+        flex-basis: 30%;
     }
 }
